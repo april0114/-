@@ -1,1 +1,20 @@
-https://github.com/april0114/-.wiki.git
+수업 정리 <1일차>
+
+파이썬 다운받기[최신버전]
+vscode 다운받기
+[vs code] 다운받은 후 바탕화면에 폴더 생성하기, 폴더를 생성한 후 오른쪽 클릭 후 vs code로 열기, vs code의 왼쪽 테트리스 블럭 열어서 python 검색한 후 다운받기---> 나머지 테마 꾸미기
+
+[cmd]
+
+cd c:\
+python -m venv mysite
+메모장을 연 후 C:\mysite\Scripts\activate 저장 후 mys.cmd로 이름 바꾸고 모든 파일로 바꾸고 저장하기
+sysdm.cpl을 검색한 후 [고급]- [환경변수] c:\mysite
+cmd창 킨 후 mys실행 해보기(잘 된거 확인하기)
+파일탐색기 킨 후 새로운 파일 생성하기[이름 1일차]
+1일차 파일 들어간 후 우클릭 vscode실행하기
+상단 바에 terminal->new terminal실행 시킨 후
+terminal의 상자 +옆에 아래로 간 화살표 클릭 후 command prompt 클릭 10.pip list 타이핑 후 두개의 버전 확인하기
+확인 한 후 pip install django 타이핑 하기
+설치 후 django-admin startproject config . 치기
+마지막으로 서버 구동해보기 python manage.py runserver
