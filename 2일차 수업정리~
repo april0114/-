@@ -1,1 +1,10 @@
+<2일차 수업정리>
 
+
+1. c드라이브에 my site 폴더안에 2일차 파일 생성
+2.2일차 파일 오른쪽 클릭 후 vscode로 열기 시작
+3.vscode terminal열기로 해서 command prompt 실행!
+4.mys 로 지난시간에 저장해 두었던 가상환경 단축키 실행하기
+5. django-admin startproject config . 입력하기
+6. python manage.py startapp tag(만들 파일 이름입력하기)
+7.
