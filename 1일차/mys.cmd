@@ -1,0 +1,1 @@
+c:\mysite\Scripts\activate
