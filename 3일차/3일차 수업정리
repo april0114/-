@@ -61,3 +61,265 @@
 <div> 문단을 나타낸다 </div>
 <p> 문단 1</p>
 <p> 문단 2</p>
+
+<br><br>
+<hr>
+<h3> talbe tag</h3>
+<hr>
+<div> table 태그의 하위 태그 tr(행) <br>
+tr의 하위태그 th, td(열) </div>
+
+<br><br>
+<table border = "1">
+<tr>
+
+<th> no </th>
+<th> name </th>
+<th> age </th>
+<th> add </th>
+</tr>
+
+    <tr>
+        <td>1</td>
+        <td> Han </td>
+        <td> 37</td>
+        <td rowspan = "3"></td>
+
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td> YANG </td>
+        <td>39</td>
+    </tr>
+
+    <tr></tr>
+<hr>
+<br><br><br>
+<table border = "1">
+<th colspan = "6">한달시간표</th>
+<tr align = "center">
+    <td></td>
+    <td><b>mon</b></td>
+    <td><b>tue</b></td>
+    <td><b>wed</b></td>
+    <td><b>thu</b></td>
+    <td><b>fri</b></td>
+</tr>
+<tr align = "center">
+    <td>1교시</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan = "2">python</td>
+
+</tr>
+<tr align = "center">
+    <td>2교시</td>
+    <td></td>
+    <td rowspan = "3">django</td>
+    <td></td>
+    <td></td>
+
+</tr>
+<tr align = "center">
+    <td>3교시</td>
+    <td></td>
+    <td rowspan = "2">network</td>
+    <td></td>
+    <td></td>
+
+
+</tr>
+<tr align = "center">
+    <td>4교시</td>
+    <td></td>
+    <td></td>
+    <td></td>
+
+</tr>
+</table>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<br><br>
+<hr>
+<h3> INLINE TAG</h3>
+<hr>
+<h3> button Tag</h3>
+<hr>
+<button>클릭1</button>
+<button>클릭2</button>
+<button >클릭3</button>
+<button onclick= "hello()">클릭4</button>
+
+<script>
+//여기는 자바스크립트 쓰는곳
+function hello()
+{
+    alert('hello');
+}
+</script>
+
+<br><br>
+<hr>
+<h3>img Tag</h3>
+<hr>
+<div> 이미지 담당 ,src출처</div>
+<div>
+<img width ="200px" title = "아이스베어 도끼"src ="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODAyMjdfMTQ3%2FMDAxNTE5NzQyNzkzMzA2.AICJ6KAiA86kbKjK487x0LozjJpTC-toVITVA0Qa5p4g.dj46YMtQrJ5asA4as-QNfawQSAi2UJNd8Xx6vZzEApsg.GIF.jelly31day%2F87CE40D4-BE57-4741-94B7-0E68194A1806-3499-000001A95C4D20AF_file.GIF&type=sc960_832_gif">
+</div>
+<img width ="200px" title = "그리즐리"src ="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTEyMTVfMTk1%2FMDAxNTc2NDE5MjEyMjI1.Sh1AySUftREt-UCTdvHl2ks2DEJrCmJt37OpJZT_MP4g.OgqJhey9Ih8aR3tsq3uEa15dviY8QPc6kOrkbhTG9vcg.GIF.stupidsun%2FiJf.gif&type=sc960_832_gif">
+<br>
+<br>
+<img width ="200px" title = "세마리 모음"src = "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MTFfMjgx%2FMDAxNTk5ODM0OTgyNzc2.2QHs-f-umwy708rW54z0jykEv92F6wZpsbWhiatJyJsg.72ciT0c_vz5GZYsh2fzSGz9hVusyDXqhI3iRn1qNIVUg.GIF.stupidsun%2Ftumblr_o930lpGsA31vnqmpbo1_500.gif&type=sc960_832_gif">
+<br>
+<br>
+<img width = "200px" title = "아이스베어" src = "아이스베어.gif">
+
+
+<br><br>
+<hr>
+<h3>a Tag</h3>
+<hr>
+<div>
+    링크 담당,href경로, target창 설정
+</div>
+
+<a href = "https://www.naver.com"><button>네이버</button></a>
+<a target = "_blank" href = "https://www.naver.com"><button>네이버</button></a>
+<a target = "_blank" href = "https://www.naver.com"><img src = "아이스베어.gif" width = "100px"></a>
+    
+
+<br><br>
+<hr>
+<h3>span Tag</h3>
+<hr>
+<div> 레이아웃(틀) 지정 </div>
+<span class = "red">여기는 빨간색</span>
+<span class = "blue">여기는 파란색</span>
+
+
+
+<br><br>
+<hr>
+<h3>text area tag</h3>
+<hr>
+
+<div>긴글 입력 받을 때 사용 ,cols가로 rows세로, disabled 비활성화,place holer 안내 </div>
+<textarea> </textarea>
+<textarea cols = "50" rows = "4">기존에 세팅 </textarea>
+<textarea cols = "50" rows ="4" disabled></textarea>
+<textarea cols = "50" rows ="4" placeholder="텍스트 입력"></textarea>
+
+
+<br><br>
+<hr>
+<h3>select tag</h3>
+<hr>
+<div> 항목지정,option이라는 하위태그 갖는다</div>
+<select>
+    <option>제목</option>
+    <option>작성자</option>
+    <option>내용</option>
+    <option>이미지</option>
+    
+    
+</select>
+
+
+
+
+<br><br>
+<hr>
+<h3>input tag</h3>
+<hr>
+<input type = "text"><br><br>
+<input type = "password"><br><br>
+<input type = "file"><br><br>
+<input type = "radio"><br><br>
+<input type = "checkbox"><br><br>
+
+
+<input type = "color"><br><br>
+<input type = "date"><br><br>
+<input type = "week"><br><br>
+<input type = "range"><br><br>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<style>
+/*여기는 css 쓰는곳*/
+h1{
+    color: red;
+}
+h3{
+    background-color:beige;
+}
+.red{
+    color: red;
+    font-size: 20px;
+    font-weight : bold;
+}
+.blue{
+    color: white;
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color : black;
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+}
+gif:hover{
+    opacity: 0.4;
+}
+</style>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
