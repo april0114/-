@@ -1,0 +1,63 @@
+<html>
+<head>
+<title> html연습 </html>
+</head>
+
+<body>
+<b> html에서는 줄바꿈, 두개 이상의 공백 <mark> 하나의 공백</mark> </b>
+<hr> <!---한 줄 긋기-->
+
+<hr>
+<h1> block tags</h1>
+<br><br> <!--- 공백-->
+<hr>
+<h3> h tag</h3>
+<hr>
+<div>뉴스 헤드라인 </div>
+
+
+<h1>1</h1>
+<h2>2</h2>
+<h3>3</h3>
+<h4>4</h4>
+<h5>5</h5>
+<h6>6</h6>
+
+
+<br>
+<br>
+<h3> div tag </h3>
+<hr>
+
+<div> 레이아웃 지정할 때 많이 사용함 </div>
+<div class = "red"> 여기는 빨간색 </div>
+<div class = "blue"> 여기는 파란색 </div>
+
+<br>
+<br>
+<h3> list tag</h3>
+<div> 순서 있는 리스트 (ordered list), 순서 없는 리스트 (unordered list) li 라는 하위태그를 갖는다
+</div>
+
+<b>가장 먹고 싶은 음식 top 3</b>
+<ol>
+    <li>돼지고기 김치찌개</li>
+    <li>마라탕</li>
+    <li>빙수</li>
+</ol>
+
+<br><br>
+<b> 김치찌개 종류 </b>
+<ul>
+    <li>돼지고기 김치찌개</li>
+    <li>고등어 김치찌개</li>
+    <li>꽁치 김치찌개</li>
+</ul>
+
+<hr>
+<br><br>
+<h3> p tag </h3>
+<hr>
+<div> 문단을 나타낸다 </div>
+<p> 문단 1</p>
+<p> 문단 2</p>
