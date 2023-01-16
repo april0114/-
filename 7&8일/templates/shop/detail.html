@@ -1,0 +1,9 @@
+<h1>{{ s.name }}</h1>
+
+<input type="text" value="{{ s.price }} 원" disabled><br><br>
+
+<textarea cols="70" rows="6" disabled>{{ s.content }}</textarea><br><br>
+
+<a href="{% url 'index' %}"><button>HOME</button></a>
+<a href="{% url 'delete' s.id %}"><button>DEL</button></a>
+<a href = "{% url 'update' s.id %}"><button>update</button></a>
