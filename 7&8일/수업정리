@@ -1,0 +1,8 @@
+*혼자 공부*
+models.py = 데이터베이스 테이블 구조/타입을 먼저 설계를 한 다음에 모델을 정의한다.
+models.py 에서 모델클래스 정의
+terminal에서 makemigrations, migrate 실행
+admin.py에 모델클래스 등록
+
+def __str__(self):
+  return self.name  => 메소드들(self 는 인스턴스(객체)를 생성해주기 위한 필수요소)
