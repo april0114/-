@@ -9,7 +9,7 @@ vscode 다운받기
 cd c:\
 python -m venv mysite
 메모장을 연 후 C:\mysite\Scripts\activate 저장 후 mys.cmd로 이름 바꾸고 모든 파일로 바꾸고 저장하기
-sysdm.cpl을 검색한 후 [고급]- [환경변수] c:\mysite
+sysdm.cpl을 검색한 후 [고급]- [환경변수] - PATH 더블클릭 후 c:\mysite
 cmd창 킨 후 mys실행 해보기(잘 된거 확인하기)
 파일탐색기 킨 후 새로운 파일 생성하기[이름 1일차]
 1일차 파일 들어간 후 우클릭 vscode실행하기
