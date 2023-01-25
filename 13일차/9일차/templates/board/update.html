@@ -1,0 +1,9 @@
+<h1><b>과목 수정</b></h1>
+
+<form method="post">
+    {% csrf_token %}
+    <b>이름</b> <input type="char" name="psubject" value="{{ s.subject }}"><br><br>
+    <b>작가</b> <input type="char" name="pwriter" value="{{ s.writer }}"><br><br>
+    <textarea cols="60" rows="5" name="pcon" placeholder="과목 소개">{{ s.content }}</textarea><br><br>
+    <button>과목 수정</button>
+</form>

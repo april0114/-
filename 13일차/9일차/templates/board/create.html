@@ -1,0 +1,9 @@
+<h1><b>과목 등록</b></h1>
+
+<form method="post">
+    {% csrf_token %}
+    <b>과목</b> <input type="char" name="psubject"><br><br>
+    <b>작가</b> <input type="char" name="pwriter"><br><br>
+    <textarea cols="60" rows="5" name="pcon" placeholder="과목 설명"></textarea><br><br>
+    <button>과목 등록</button>
+</form>

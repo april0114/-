@@ -1,0 +1,29 @@
+<h1>{{ s.subject }}</h1>
+
+<input type="char" value="{{ s.writer }} 작가" disabled><br><br>
+
+<textarea cols="70" rows="6" disabled>{{ s.content }}</textarea><br><br>
+
+<a href="{% url 'index' %}"><button>HOME</button></a>
+<a href="{% url 'update' s.id %}"><button>UPDATE</button></a>
+<a href="{% url 'delete' s.id %}"><button>DEL</button></a>
+
+<hr>
+
+<form method ="post" action = "{% url 'creply'%s.id %}"">
+    {% csrf_token %}
+    <input type = "text" size="6">
+    <input type = "text" size="30">
+    <button>등록하기</button>
+</form>
+
+{%for i in rset%}
+    <b>{{i.replyer}}</b>{{i.comment}}<br>
+
+
+<button> </button>
+<a href = "{%url 'dreply' %s.id i.id}"><button ></button></a>
+<br>
+    {%empty%}
+    <b>하나만 달아줘</b>
+{% endfor %}
